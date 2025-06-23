@@ -33,3 +33,5 @@ if st.button("Predict Loan Approval"):
 
     result = 'Approved ✅' if prediction[0] == 1 else 'Rejected ❌'
     st.success(f"Loan will be: {result}")
+st.markdown("---")
+st.markdown("🔗 Developed with ❤️ by [Dhanush](https://github.com/dhanushh00)", unsafe_allow_html=True)
